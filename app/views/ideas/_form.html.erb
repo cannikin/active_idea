@@ -1,0 +1,28 @@
+<% if params[:action] == 'edit' %>
+  <% javascript_method = 'edit' %>
+<% else %>
+  <% javascript_method = 'add' %>
+<% end %>
+
+<% form_for(idea) do |f| %>
+  <%= f.error_messages %>
+
+  <label for="idea[title]">Summary</label>
+  <%= f.text_field :title, :maxlength => 255, :size => 30 %>
+
+  <label for="idea[body]">Explain...</label>
+  <%= f.text_area :body %>
+  
+  <label for="user_name">Name (optional)</label>
+  <% unless idea.user.nil? %>
+    <%= text_field_tag :user_name, idea.user.name %>
+  <% else %>
+    <%= text_field_tag :user_name %>
+  <% end %>
+  
+  <label for="tags">Tags (optional) separate,with,commas</label>
+  <%= text_field_tag :tags, idea.tag_list, :class => 'small' %>
+  
+  <%= f.submit "Submit", :id => 'commit', :onclick => "return ideasBlock.#{javascript_method}();" %>
+
+<% end %>

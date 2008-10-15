@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Active Ideas Comment RSS Feed</title>
+    <link>http://ideas.active.com</link>
+    <description>Comments on awesome ideas for Active</description>
+    <language>en-us</language>
+    <pubDate>Tue, 07 Oct 2008 15:29:35 -0700</pubDate>
+    <item>
+      <title>Active Mobile</title>
+      <link>http://ideas.active.com/ideas/11#31</link>
+      <description>I was bearish on making this concept a priority...but last week I was standing in line, waiting to get on a plane, and the lady in front of me was searching for running events on her blackberry.  She actually took quite a bit of time to read the event description and scroll through the list.  Now if she could have just hit a button that says &quot;email me the link to this registration form&quot;....hmmm....</description>
+      <author>Alan</author>
+      <pubDate>Tue, 07 Oct 2008 15:29:35 -0700</pubDate>
+    </item>
+    <item>
+      <title>Promote Assets like Teachstreet.com</title>
+      <link>http://ideas.active.com/ideas/43#30</link>
+      <description>Yes!  A pseudo-open API with affiliate tracking for rev share programs. </description>
+      <author>Jason Aloia</author>
+      <pubDate>Tue, 07 Oct 2008 14:43:18 -0700</pubDate>
+    </item>
+    <item>
+      <title>Promote Assets like Teachstreet.com</title>
+      <link>http://ideas.active.com/ideas/43#29</link>
+      <description>Taking it one step further, it would be interesting to explore the Commission Junction model:  the ED’s would deliver code that tracks registrations, and the referring source would get a lead gen fee from the event (and a % of the lead gen fee goes to Active).  The affiliates would earn on a sliding scale based on referring traffic.  So not only could folks tap into our API to build a kick-a** property around our assets, but they would be compensated for doing so by our customers.  A lot of moving parts there…but could be a great point of differentiation when Orgs is selling to clients (and a great source of referring traffic for us).</description>
+      <author>Alan Cole</author>
+      <pubDate>Tue, 07 Oct 2008 14:43:07 -0700</pubDate>
+    </item>
+    <item>
+      <title>Promote Assets like Teachstreet.com</title>
+      <link>http://ideas.active.com/ideas/43#28</link>
+      <description>I like the idea.  We’re focused on partnering for distribution, when encouraging / consulting EDs on how to promote their listings on 3rd parties might yield similar results.  EDs are certainly motivated to do some promotional legwork.  I think we should explore it.
+
+Additionally, it’s beautifully executed – search, directory, reviews, social and photos.
+</description>
+      <author>Jason Aloia</author>
+      <pubDate>Tue, 07 Oct 2008 14:42:50 -0700</pubDate>
+    </item>
+    <item>
+      <title>Promote Assets like Teachstreet.com</title>
+      <link>http://ideas.active.com/ideas/43#27</link>
+      <description>Seems like an interesting idea to pursue with appropriate activities.
+
+Thoughts team?</description>
+      <author>Chuck Mitchell</author>
+      <pubDate>Tue, 07 Oct 2008 14:42:35 -0700</pubDate>
+    </item>
+    <item>
+      <title>Spread requests for assets across subdomains to speed page load</title>
+      <link>http://ideas.active.com/ideas/41#26</link>
+      <description>Love this idea, although the trick will be to identify static content and synchronize changes.  But this is what most of the high-traffic websites are doing these days.</description>
+      <author>Jeremy Thomas</author>
+      <pubDate>Tue, 23 Sep 2008 02:43:12 -0700</pubDate>
+    </item>
+    <item>
+      <title>Spread requests for assets across subdomains to speed page load</title>
+      <link>http://ideas.active.com/ideas/41#25</link>
+      <description>Another option would be to use a 3rd party content delivery network which could have several servers all over the country/world and would deliver assets from a location as close to you as possible.  Amazon is about to launch their own:
+http://www.readwriteweb.com/archives/amazon_to_launch_cdn.php</description>
+      <author>Rob</author>
+      <pubDate>Mon, 22 Sep 2008 16:26:06 -0700</pubDate>
+    </item>
+    <item>
+      <title>ActiveNetwork Code Module Repository</title>
+      <link>http://ideas.active.com/ideas/40#24</link>
+      <description>Great idea.  Even if the code does not match 100% what the person is trying to do, it will be extremely useful because someone has solved almost the same problem.</description>
+      <author>James O'Brien</author>
+      <pubDate>Thu, 11 Sep 2008 22:31:02 -0700</pubDate>
+    </item>
+    <item>
+      <title>Provide RSS feed for an entire channel</title>
+      <link>http://ideas.active.com/ideas/37#23</link>
+      <description>Right, I got ahead of myself.  I meant expose the data to the world, and let the world &quot;mash it up&quot;.  So it seems we're saying the same thing.</description>
+      <author>Jeremy Thomas</author>
+      <pubDate>Thu, 11 Sep 2008 19:04:48 -0700</pubDate>
+    </item>
+    <item>
+      <title>Provide RSS feed for an entire channel</title>
+      <link>http://ideas.active.com/ideas/37#22</link>
+      <description>Open up an API to what? Wouldn't we have to provide the data in XML (or another) format first, which means we're basically providing RSS anyway? And do we have external developers? :)</description>
+      <author>Rob</author>
+      <pubDate>Thu, 11 Sep 2008 17:04:23 -0700</pubDate>
+    </item>
+    <generator>Ruby's RSS::Maker</generator>
+  </channel>
+</rss>

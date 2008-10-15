@@ -1,0 +1,19 @@
+<h2>All content from <%= @user.name %></h2>
+
+<div id="ideas">
+  <h3>Ideas</h3>
+  <% unless @user.ideas.empty? %>
+    <%= render :partial => 'ideas/idea', :collection => @user.ideas, :locals => { :format => :short } %>
+  <% else %>
+    <%= @user.name %> hasn't added any ideas yet
+  <% end %>
+</div>
+
+<div id="comments">
+  <h3>Comments</h3>
+  <% unless @user.comments.empty? %>
+    <%= render :partial => 'comments/comment', :collection => @user.comments, :locals => { :show_idea_link => true } %>
+  <% else %>
+    <%= @user.name %> hasn't left any comments yet
+  <% end %>
+</div>

@@ -1,0 +1,25 @@
+<%= render :partial => 'idea', :locals => { :idea => @idea, :format => :long } %>
+
+<div id="comments">
+  <h2>Comments</h2>
+  <% unless @idea.comments.empty? %>
+    <%= render :partial => 'comments/comment', :collection => @idea.comments, :locals => { :show_idea_link => false } %>
+  <% else %>
+    <p id="no_comments">No comments on this idea yet!</p>
+  <% end %>
+</div>
+
+<div id="add_comment">
+  <h2>Add a comment</h2>
+  <% form_for([@idea, @comment], :html => { :id => 'add_comment_form' }) do |form| %>
+    <label for="comment_user">Name</label>
+    <% if @comment.user %>
+      <%= text_field_tag :user_name, @comment.user.name %>
+    <% else %>
+      <%= text_field_tag :user_name %>
+    <% end %>
+    <label for="comment_body">Comment</label>
+    <%= form.text_area :body %>
+    <%= submit_tag 'Add Comment', :onclick => 'ideasBlock.addComment(); return false;' %>
+  <% end %>
+</div>

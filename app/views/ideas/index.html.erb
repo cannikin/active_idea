@@ -1,0 +1,7 @@
+<% unless @ideas.empty? %>
+  <% @ideas.each do |idea| %>  
+    <%= render :partial => 'idea', :locals => { :idea => idea, :format => :long } %>
+  <% end %>
+<% else %>
+  <p>There aren't any ideas here yet!</p>
+<% end %>

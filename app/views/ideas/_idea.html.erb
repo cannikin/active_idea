@@ -1,0 +1,42 @@
+<% unless defined?(format) %>
+  <% format = :long %>
+<% end %>
+
+<div id="idea_<%= idea.id %>" class="idea">
+  <div class="votes" onclick="ideasBlock.vote(<%= idea.id %>);">
+    <span id="idea_<%= idea.id %>_votes" class="vote_count"><%= idea.votes %></span>
+    <% if idea.votes == 1 %>
+      vote
+    <% else %>
+      votes
+    <% end %>
+  </div>
+  <div class="body">
+    <h3><%= link_to(idea.title, "/#{idea.url}") %></h3>
+    <h4>
+      by <%= idea.user.nil? ? 'Anonymous' : link_to(idea.user.name, users_path(:name => encode_url(idea.user.name))) %>
+      <%= distance_of_time_in_words_to_now idea.created_at %> ago
+    </h4>
+    <% if format == :long %>
+      <p><%= auto_link(textilize(idea.body)) %></p>
+      <ul class="options">
+        <li>
+          <% if idea.comments.length == 1 %>
+            <%= link_to("#{idea.comments.length} Comment", idea_path(idea.id, :anchor => 'comments')) %>
+          <% else %>
+            <%= link_to("#{idea.comments.length} Comments", idea_path(idea.id, :anchor => 'comments')) %>
+          <% end %>
+        </li>
+        <% unless idea.tag_list.empty? %>
+          <li class="tag_list">Tagged with: 
+          <% idea.tag_list.each_with_index do |tag,index| %>
+            <%= link_to tag, tags_path(tag) %><%= "," unless index+1 == idea.tag_list.length %>
+          <% end %>
+          </li>
+        <% end %>
+      </ul>
+      
+    <% end %>
+    
+  </div>
+</div>

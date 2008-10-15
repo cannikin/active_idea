@@ -1,0 +1,9 @@
+<div id="comment_<%= comment.id %>" class="comment">
+  <div class="body"><%= auto_link(textilize(comment.body)) %></div>
+  <div class="author">
+    Posted by <%= comment.user.nil? ? 'Anonymous' : link_to(comment.user.name, users_url(:name => encode_url(comment.user.name))) %> <%= distance_of_time_in_words_to_now(comment.created_at) %> ago
+  </div>
+  <% if defined?(show_idea_link) and show_idea_link %>
+    <div class="idea_link">in response to <%= link_to comment.idea.title, idea_path(comment.idea.id) %></div>
+  <% end %>
+</div>

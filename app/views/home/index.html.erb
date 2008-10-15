@@ -1,0 +1,47 @@
+<% content_for :side do %>
+  <div id="side">
+    <div id="highest_rated_ideas">
+      <h2>Highest Rated Ideas</h2>
+      <% @highest_rated_ideas.each do |idea| %>
+        <%= render :partial => 'ideas/idea', :locals => { :idea => idea, :format => :short } %>
+      <% end %>
+    </div>
+    
+    <div id="tag_cloud">
+      <h2>Tags</h2>
+      <% unless @tags.empty? %>
+        <% tag_cloud @tags, %w(cloud1 cloud2 cloud3 cloud4 cloud5) do |tag, css_class| %>
+          <%= link_to tag.name, tags_path(tag.name), :class => css_class %>
+        <% end %>
+      <% else %>
+        Nothing is tagged yet!
+      <% end %>
+    </div>
+  </div>
+<% end %>
+
+<div id="main">
+  <div id="counter"><%= link_to(image_tag('/images/rss.png'), '/ideas_rss.xml') %> <span id="total_idea_count"><%= @total_ideas %></span> ideas and counting...</div>
+
+  <div id="new_idea_container">
+    <h2>Tell us your idea!</h2>
+    <%= render :partial => 'ideas/form', :locals => { :idea => @idea } %>
+  </div>
+
+  <div id="recent_ideas">
+    <h2 id="recent_ideas_title">Recent Ideas</h2>
+    <% @recent_ideas.each do |idea| %>
+      <%= render :partial => 'ideas/idea', :locals => { :idea => idea, :format => :long } %>
+    <% end %>
+    <% if @recent_ideas.length < @total_ideas %>
+      <div class="more"><%= link_to 'All ideas &raquo;', ideas_path %></div>
+    <% end %>
+  </div>
+</div>
+
+<script type="text/javascript">
+  new Ajax.PeriodicalUpdater( 'total_idea_count',
+                              '/ideas/count',
+                              { frequency:60,
+                                method:'get' });
+</script>

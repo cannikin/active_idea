@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Active Ideas RSS Feed</title>
+    <link>http://ideas.active.com</link>
+    <description>Awesome ideas for Active</description>
+    <language>en-us</language>
+    <pubDate>Tue, 07 Oct 2008 14:42:09 -0700</pubDate>
+    <item>
+      <title>Promote Assets like Teachstreet.com</title>
+      <link>http://ideas.active.com/ideas/43</link>
+      <description>I wanted to provide some suggestions that I had regarding the Active.com site. I recently met the founder of Teach Street www.teachstreet.com, which provides a directory to find classes to take in Seattle and Portland.  After viewing their business model and seeing what tactics they are using to gain traction, I believe this would be helpful to us as well.  
+
+Teach Street allows there customers to promote classes on third party sites. For example, they allow teachers to promote classes via craigslist. Teach Street provides the HTML for there teachers, making it very easy to promote themselves. 
+
+Here is an example: http://seattle.craigslist.org/see/act/831520772.html
+
+Overall, this is great way to help our organizations promote there events, allow more consumer to see what’s happening on Active.com, and increase search engine optimization.  If you have any questions or would like to discuss this please let me know.
+</description>
+      <author>Dan Chhan</author>
+      <pubDate>Tue, 07 Oct 2008 14:42:09 -0700</pubDate>
+    </item>
+    <item>
+      <title>Ratings for customer reviews...</title>
+      <link>http://ideas.active.com/ideas/42</link>
+      <description>Similar to Amazon.com's review ratings, I'd like to see the ability to give a particular review a thumbs up or down depending upon its usefulness.   A reviewer could see in &quot;MyActive&quot; how his reviews are rated. 
+
+The most useful reviewers could potentially earn some sort of reward.</description>
+      <author>Mike MacDonald</author>
+      <pubDate>Tue, 07 Oct 2008 13:25:46 -0700</pubDate>
+    </item>
+    <item>
+      <title>Spread requests for assets across subdomains to speed page load</title>
+      <link>http://ideas.active.com/ideas/41</link>
+      <description>A request for the active.com homepage consists of 68 requests for images, javascript files, flash, and other assets and takes about 3.5 seconds to load. Most browsers will only simultaneously download 2 of these assets at a time. One asset needs to complete downloading before another can begin.
+
+Adding multiple subdomains allows the browser to maximize parallel downloads and decrease the page load times. Yahoo's Exceptional Performance team popularized this technique: http://yuiblog.com/blog/2007/04/11/performance-research-part-4/
+
+Right now we could add 3 subdomains:
+
+* asset1.active.com
+* asset2.active.com
+* asset3.active.com
+
+(Yahoo recommends 2-4 total domains per page, otherwise you start having a hit in your DNS lookup times.) Phase I could simply be, for example, requesting all images from asset1, all stylesheets from asset2 and all javascripts from asset3 (HTML comes from www). Later on we can tweak requests and maybe spread out image requests among them as well.</description>
+      <author>Rob</author>
+      <pubDate>Wed, 17 Sep 2008 18:28:09 -0700</pubDate>
+    </item>
+    <item>
+      <title>ActiveNetwork Code Module Repository</title>
+      <link>http://ideas.active.com/ideas/40</link>
+      <description>Here at Active we spend a lot of time writing reusable code that never gets reused.  We've probably integrated to AUS and CAS 15 times in 15 different ways in Java, for example.
+
+Why?  Why not do it once and let other groups reuse it?  Here's what we need:
+
+* Store binary code, executable scripts or interpreted source code in one central repository.
+* Associate an owner with each artifact, both for recognition as well as questions.
+* Make the artifacts searchable, i.e. &quot;I'm looking for a java client that integrates to AUS&quot;.
+* Incorporate tagging for dynamic categorization.
+* Add a commenting system, i.e. &quot;this is how to use this library&quot;.
+* Link to and open up the source code for improvements.</description>
+      <author>Jeremy Thomas</author>
+      <pubDate>Thu, 11 Sep 2008 21:55:48 -0700</pubDate>
+    </item>
+    <item>
+      <title>Seesmic Integration into Community</title>
+      <link>http://ideas.active.com/ideas/39</link>
+      <description>Seesmic, http://seesmic.com/, is a video-based commenting system.  Videos can be embedded on external websites, and there is a seesmic commenting widget available.  Techcrunch uses this widget, for example.
+
+Video helps create a more personal connection between community members, and instead of developing our own capability we should leverage Seesmic, which does this very well.</description>
+      <author>Jeremy Thomas</author>
+      <pubDate>Wed, 10 Sep 2008 16:46:35 -0700</pubDate>
+    </item>
+    <item>
+      <title>Raceday Mobile</title>
+      <link>http://ideas.active.com/ideas/38</link>
+      <description>A cellphone app with a map view showing the race course overlayed with the following statistics:
+# Runner's official start time.
+# Runner's distance ran.
+# Runner's place in race.
+# Runner's place in division.
+# Runner's pace.
+# Track other runner's by bib - see where you are in relation to your friends or competitors.
+# Position on map.
+# Alerts about where to turn, possibly alerts on upcoming water and aid stations.
+
+The same app can be used by friends and family to track runners - so there's both a participant and friend view - both fairly similar.
+
+Additional possible features - video, voice, or picture messages left either by participant or encouragement messages by trackers.
+
+Platforms - iphone and android.</description>
+      <author>James O'Brien</author>
+      <pubDate>Fri, 05 Sep 2008 00:47:50 -0700</pubDate>
+    </item>
+    <item>
+      <title>Provide RSS feed for an entire channel</title>
+      <link>http://ideas.active.com/ideas/37</link>
+      <description>Have an RSS feed for every channel which shows all activity in it -- new articles, new events, video uploads, new discussion threads...anything and everything. This could be an awfully lot of info for some people, so we may want to provide certain levels:
+
+* Events
+* Events and articles
+* Events, articles and blog posts
+
+or even let the user customize their own feed by selecting which media they want updates about:
+
+* | | Events
+* | | Articles
+* | | Message board posts
+* | | Blog posts
+* | | Videos
+
+(check all types you want updates about)</description>
+      <author>Rob</author>
+      <pubDate>Wed, 03 Sep 2008 21:58:33 -0700</pubDate>
+    </item>
+    <item>
+      <title>Integrate active.com into Facebook Connect</title>
+      <link>http://ideas.active.com/ideas/36</link>
+      <description>Facebook connect ( http://wiki.developers.facebook.com/index.php/Facebook_Connect ) is an implementation of Data Portability.  The premise is a user's profile, social graph and media remain stored/maintained from a single application, then syndicated to others.  This would provide a low-barrier way for users to create active.com accounts.</description>
+      <author>Jeremy Thomas</author>
+      <pubDate>Wed, 03 Sep 2008 21:13:21 -0700</pubDate>
+    </item>
+    <item>
+      <title>Integrate Directory</title>
+      <link>http://ideas.active.com/ideas/35</link>
+      <description>Assets - registrable, commentable(?) activities - need to be presented on the site as of the same as content, rather than being walled off in search.</description>
+      <author>Jeremy Spitzberg</author>
+      <pubDate>Wed, 03 Sep 2008 15:51:42 -0700</pubDate>
+    </item>
+    <item>
+      <title>Active Ideas for visitors/customers</title>
+      <link>http://ideas.active.com/ideas/34</link>
+      <description>Create an ActiveIdeas section for our visitors and customers to give us their ideas on what they want to see, use, have available on Active.com.  </description>
+      <author>Lauren Guinn</author>
+      <pubDate>Wed, 03 Sep 2008 03:09:25 -0700</pubDate>
+    </item>
+    <generator>Ruby's RSS::Maker</generator>
+  </channel>
+</rss>

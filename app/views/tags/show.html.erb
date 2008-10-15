@@ -1,0 +1,9 @@
+<h2>All ideas tagged with '<%= params[:tag] %>'</h2>
+
+<% unless @ideas.empty? %>
+<div id="ideas">
+  <%= render :partial => 'ideas/idea', :collection => @ideas, :locals => { :format => :short } %>
+</div>
+<% else %>
+  Nothing has been tagged with '<%= params[:tag] %>'
+<% end %>
