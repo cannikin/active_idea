@@ -40,6 +40,8 @@ class IdeasController < ApplicationController
 
   def new
     @idea = Idea.new
+    @idea.title = ''
+    @idea.body = ''
     @page_title = " - Add Your Idea"
 
     respond_to do |format|
