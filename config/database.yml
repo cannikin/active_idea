@@ -20,8 +20,6 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql
-  database: active_idea_production
-  user: root
-  password:
-  host: tesla.local
+  adapter: sqlite3
+  database: db/production.sqlite3
+  timeout: 5000

@@ -6,7 +6,20 @@
     <link>http://ideas.active.com</link>
     <description>Awesome ideas for Active</description>
     <language>en-us</language>
-    <pubDate>Tue, 07 Oct 2008 14:42:09 -0700</pubDate>
+    <pubDate>Mon, 27 Oct 2008 14:11:53 -0700</pubDate>
+    <item>
+      <title>SOA Registry</title>
+      <link>http://ideas.active.com/ideas/44</link>
+      <description>We need an internal registry of widgets and services we're building.  The codebase for ActiveIdeas will work well, except that the &quot;description&quot; needs to be editable by all.  Here's what we'll need:
+
+   * Service Name (Summary)
+   * Service Description (Explanation - editable)
+   * Author (Name)
+   * Tags
+   * Comments</description>
+      <author>Jeremy Thomas</author>
+      <pubDate>Mon, 27 Oct 2008 14:11:53 -0700</pubDate>
+    </item>
     <item>
       <title>Promote Assets like Teachstreet.com</title>
       <link>http://ideas.active.com/ideas/43</link>
@@ -16,7 +29,7 @@ Teach Street allows there customers to promote classes on third party sites. For
 
 Here is an example: http://seattle.craigslist.org/see/act/831520772.html
 
-Overall, this is great way to help our organizations promote there events, allow more consumer to see what’s happening on Active.com, and increase search engine optimization.  If you have any questions or would like to discuss this please let me know.
+Overall, this is great way to help our organizations promote there events, allow more consumer to see what's happening on Active.com, and increase search engine optimization.  If you have any questions or would like to discuss this please let me know.
 </description>
       <author>Dan Chhan</author>
       <pubDate>Tue, 07 Oct 2008 14:42:09 -0700</pubDate>
@@ -43,7 +56,7 @@ Right now we could add 3 subdomains:
 * asset2.active.com
 * asset3.active.com
 
-(Yahoo recommends 2-4 total domains per page, otherwise you start having a hit in your DNS lookup times.) Phase I could simply be, for example, requesting all images from asset1, all stylesheets from asset2 and all javascripts from asset3 (HTML comes from www). Later on we can tweak requests and maybe spread out image requests among them as well.</description>
+Yahoo recommends 2-4 total domains per page, otherwise you start having a hit in your DNS lookup times. Phase I could simply be, for example, requesting all images from asset1, all stylesheets from asset2 and all javascripts from asset3 (HTML comes from www). Later on we can tweak requests and maybe spread out image requests among them as well.</description>
       <author>Rob</author>
       <pubDate>Wed, 17 Sep 2008 18:28:09 -0700</pubDate>
     </item>
@@ -127,13 +140,6 @@ or even let the user customize their own feed by selecting which media they want
       <description>Assets - registrable, commentable(?) activities - need to be presented on the site as of the same as content, rather than being walled off in search.</description>
       <author>Jeremy Spitzberg</author>
       <pubDate>Wed, 03 Sep 2008 15:51:42 -0700</pubDate>
-    </item>
-    <item>
-      <title>Active Ideas for visitors/customers</title>
-      <link>http://ideas.active.com/ideas/34</link>
-      <description>Create an ActiveIdeas section for our visitors and customers to give us their ideas on what they want to see, use, have available on Active.com.  </description>
-      <author>Lauren Guinn</author>
-      <pubDate>Wed, 03 Sep 2008 03:09:25 -0700</pubDate>
     </item>
     <generator>Ruby's RSS::Maker</generator>
   </channel>

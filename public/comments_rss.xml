@@ -6,7 +6,14 @@
     <link>http://ideas.active.com</link>
     <description>Comments on awesome ideas for Active</description>
     <language>en-us</language>
-    <pubDate>Tue, 07 Oct 2008 15:29:35 -0700</pubDate>
+    <pubDate>Mon, 20 Oct 2008 14:41:34 -0700</pubDate>
+    <item>
+      <title>Ratings for customer reviews...</title>
+      <link>http://ideas.active.com/ideas/42#32</link>
+      <description>This is in the plan for the Ultimate Reviews tab. Don't know about release date, though.</description>
+      <author>Rob</author>
+      <pubDate>Mon, 20 Oct 2008 14:41:33 -0700</pubDate>
+    </item>
     <item>
       <title>Active Mobile</title>
       <link>http://ideas.active.com/ideas/11#31</link>
@@ -75,13 +82,6 @@ http://www.readwriteweb.com/archives/amazon_to_launch_cdn.php</description>
       <description>Right, I got ahead of myself.  I meant expose the data to the world, and let the world &quot;mash it up&quot;.  So it seems we're saying the same thing.</description>
       <author>Jeremy Thomas</author>
       <pubDate>Thu, 11 Sep 2008 19:04:48 -0700</pubDate>
-    </item>
-    <item>
-      <title>Provide RSS feed for an entire channel</title>
-      <link>http://ideas.active.com/ideas/37#22</link>
-      <description>Open up an API to what? Wouldn't we have to provide the data in XML (or another) format first, which means we're basically providing RSS anyway? And do we have external developers? :)</description>
-      <author>Rob</author>
-      <pubDate>Thu, 11 Sep 2008 17:04:23 -0700</pubDate>
     </item>
     <generator>Ruby's RSS::Maker</generator>
   </channel>
