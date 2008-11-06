@@ -1,0 +1,7 @@
+== Active Idea
+
+Active Idea is a very simple Digg-like interface for idea management. Users can enter an idea and others can vote
+and comment on it.  There are XML feeds for both ideas and comments.
+
+Active Idea has no login system, it is purely cookie-based. This means that someone can impersonate someone else
+if they wanted to.
