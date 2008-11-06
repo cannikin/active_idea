@@ -6,17 +6,37 @@
     <link>http://ideas.active.com</link>
     <description>Awesome ideas for Active</description>
     <language>en-us</language>
-    <pubDate>Mon, 27 Oct 2008 14:11:53 -0700</pubDate>
+    <pubDate>Mon, 03 Nov 2008 13:14:13 -0800</pubDate>
+    <item>
+      <title>Monetize Holiday Gift Guide</title>
+      <link>http://ideas.active.com/ideas/46</link>
+      <description>Monetize the annual Holiday Gift Guide by use of referral programs provided by the many retailers we send business to.   These programs are simple to use for even an individual, and could easily be applied to the Gift Guide.
+
+</description>
+      <author>Mike MacDonald</author>
+      <pubDate>Mon, 03 Nov 2008 13:14:13 -0800</pubDate>
+    </item>
+    <item>
+      <title>Selective ad display on Event Details pages</title>
+      <link>http://ideas.active.com/ideas/45</link>
+      <description>I propose that logic be put in place so that our ad servers can intelligently display ads on the Event Details page so as to not create any conflicts of interest with event-sponsors.  
+
+For example, AMG sells a block of ad impressions to Nike on event details.  If a specific marathon event is sponsored by Adidas, the ad server would not display a Nike ad on that page, so as to avoid a conflict of interest.
+
+This would allow AMG to &quot;properly monetize&quot; (words of Jeremy Thomas) the event details page.</description>
+      <author>Mike MacDonald</author>
+      <pubDate>Thu, 30 Oct 2008 10:25:29 -0700</pubDate>
+    </item>
     <item>
       <title>SOA Registry</title>
       <link>http://ideas.active.com/ideas/44</link>
       <description>We need an internal registry of widgets and services we're building.  The codebase for ActiveIdeas will work well, except that the &quot;description&quot; needs to be editable by all.  Here's what we'll need:
 
-   * Service Name (Summary)
-   * Service Description (Explanation - editable)
-   * Author (Name)
-   * Tags
-   * Comments</description>
+* Service Name (Summary)
+* Service Description (Explanation - editable)
+* Author (Name)
+* Tags
+* Comments</description>
       <author>Jeremy Thomas</author>
       <pubDate>Mon, 27 Oct 2008 14:11:53 -0700</pubDate>
     </item>
@@ -126,20 +146,6 @@ or even let the user customize their own feed by selecting which media they want
 (check all types you want updates about)</description>
       <author>Rob</author>
       <pubDate>Wed, 03 Sep 2008 21:58:33 -0700</pubDate>
-    </item>
-    <item>
-      <title>Integrate active.com into Facebook Connect</title>
-      <link>http://ideas.active.com/ideas/36</link>
-      <description>Facebook connect ( http://wiki.developers.facebook.com/index.php/Facebook_Connect ) is an implementation of Data Portability.  The premise is a user's profile, social graph and media remain stored/maintained from a single application, then syndicated to others.  This would provide a low-barrier way for users to create active.com accounts.</description>
-      <author>Jeremy Thomas</author>
-      <pubDate>Wed, 03 Sep 2008 21:13:21 -0700</pubDate>
-    </item>
-    <item>
-      <title>Integrate Directory</title>
-      <link>http://ideas.active.com/ideas/35</link>
-      <description>Assets - registrable, commentable(?) activities - need to be presented on the site as of the same as content, rather than being walled off in search.</description>
-      <author>Jeremy Spitzberg</author>
-      <pubDate>Wed, 03 Sep 2008 15:51:42 -0700</pubDate>
     </item>
     <generator>Ruby's RSS::Maker</generator>
   </channel>
